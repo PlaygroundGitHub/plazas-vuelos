@@ -256,46 +256,6 @@ export default function Home() {
             </button>
           </form>
 
-          {/* Information Legend - Now always visible */}
-          <div className="mt-6 pt-6 border-t border-white/5 space-y-3 px-4">
-            <div className="flex items-start gap-3 text-gray-400/80">
-              <Info className="w-5 h-5 mt-0.5 text-blue-400/70" />
-              <div className="text-sm space-y-2">
-                <div className="space-y-4">
-                  <p>
-                    <strong className="text-blue-300/80">¿Qué son las clases?</strong> Las letras representan diferentes tarifas y cabinas:
-                  </p>
-                  <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-6 backdrop-blur-sm">
-                    <div className="flex items-center gap-3 mb-4">
-                      <Info className="w-5 h-5 text-blue-400" />
-                      <h3 className="text-white font-semibold">¿Cómo entender la disponibilidad?</h3>
-                    </div>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-sm text-gray-400">
-                      <div className="space-y-2">
-                        <p><strong className="text-blue-400">Disponibilidad Comercial (GDS):</strong> Los números muestran las plazas que la aerolínea permite **vender** en cada clase, no los asientos físicos vacíos.</p>
-                        <p><strong className="text-blue-400">El Límite del "9":</strong> Por estándar de la industria, Amadeus muestra un máximo de **9** plazas por clase. Si ves un 9, significa "9 o más".</p>
-                      </div>
-                      <div className="space-y-2">
-                        <p><strong className="text-blue-400">Overbooking:</strong> Un vuelo puede estar físicamente lleno (u overbooked) pero seguir mostrando disponibilidad en clases altas (Business/Tarifas Flexibles) si la aerolínea aún desea vender esos billetes.</p>
-                        <p><strong className="text-blue-400">Total de Plazas:</strong> Es la suma de la disponibilidad de todas las clases. Se usa como índice de probabilidad de encontrar sitio.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-1 text-[13px] text-gray-400/90 list-none">
-                    <li><span className="text-blue-300/70 font-mono">F, A, P:</span> Primera Clase (Lujo)</li>
-                    <li><span className="text-blue-300/70 font-mono">J, C, D, I, Z:</span> Business (Flexibles)</li>
-                    <li><span className="text-blue-300/70 font-mono">W, E:</span> Turista Premium</li>
-                    <li><span className="text-blue-300/70 font-mono">Y, B, M, H:</span> Turista (Flexibles)</li>
-                    <li><span className="text-blue-300/70 font-mono">K, L, Q, N, S...:</span> Turista (Económicas)</li>
-                  </ul>
-                </div>
-                <p>
-                  <strong className="text-blue-300/80">Disponibilidad:</strong> Indica las plazas que la aerolínea permite vender. Un <span className="text-white/90">"9"</span> suele significar 9 o más plazas disponibles.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
 
         {error && (
@@ -325,6 +285,45 @@ export default function Home() {
             ))}
           </div>
         )}
+        {/* Information Legend - Moved to bottom */}
+        <div className="pt-12 border-t border-white/5 space-y-3 px-4 animate-in fade-in duration-1000">
+          <div className="flex items-start gap-3 text-gray-400/80">
+            <Info className="w-5 h-5 mt-0.5 text-blue-400/70" />
+            <div className="text-sm space-y-2 w-full">
+              <div className="space-y-6">
+                <p>
+                  <strong className="text-blue-300/80">¿Qué son las clases?</strong> Las letras representan diferentes tarifas y cabinas:
+                </p>
+                <div className="bg-blue-500/10 border border-blue-500/20 rounded-2xl p-8 backdrop-blur-md">
+                  <div className="flex items-center gap-3 mb-6">
+                    <Info className="w-6 h-6 text-blue-400" />
+                    <h3 className="text-white font-semibold text-xl">¿Cómo entender la disponibilidad?</h3>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm leading-relaxed text-gray-300">
+                    <div className="space-y-4">
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Disponibilidad Comercial (GDS):</strong> Los números muestran las plazas que la aerolínea permite **vender** en cada clase técnica. No coinciden necesariamente con los asientos físicos vacíos del avión.</p>
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">El Límite del "9":</strong> Por estándar de la industria, Amadeus muestra un máximo de **9** plazas por clase. Si ves un 9, significa "9 o más".</p>
+                    </div>
+                    <div className="space-y-4">
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Overbooking:</strong> Un vuelo puede estar físicamente lleno (u overbooked) pero seguir mostrando disponibilidad en clases altas (Business/Tarifas Flexibles) si la aerolínea aún desea vender esos billetes.</p>
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Total de Plazas:</strong> Es la suma de la disponibilidad de todas las clases. Se usa como índice de probabilidad de encontrar sitio.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <ul className="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-2 text-[13px] text-gray-400/90 list-none bg-white/5 p-6 rounded-2xl border border-white/5">
+                  <li className="flex items-center gap-2"><span className="text-blue-300/70 font-mono w-16">F, A, P:</span> Primera Clase</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-300/70 font-mono w-16">J, C, D...:</span> Business</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-300/70 font-mono w-16">W, E:</span> Turista Premium</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-300/70 font-mono w-16">Y, B, M, H:</span> Turista (Flex)</li>
+                  <li className="flex items-center gap-2"><span className="text-blue-300/70 font-mono w-16">K, L, Q...:</span> Turista (Eco)</li>
+                  <li className="flex items-center gap-2 text-blue-400/80 italic text-[11px]">... y resto de clases</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <footer className="w-full pt-12 pb-8 border-t border-white/5 flex flex-col items-center gap-4">
           <div className="flex items-center gap-2 text-gray-500 text-xs font-medium uppercase tracking-widest bg-white/5 px-4 py-2 rounded-full border border-white/5">
             <span>Powered by</span>
