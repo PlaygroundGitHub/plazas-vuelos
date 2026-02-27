@@ -325,6 +325,15 @@ export default function Home() {
             ))}
           </div>
         )}
+        <footer className="w-full pt-12 pb-8 border-t border-white/5 flex flex-col items-center gap-4">
+          <div className="flex items-center gap-2 text-gray-500 text-xs font-medium uppercase tracking-widest bg-white/5 px-4 py-2 rounded-full border border-white/5">
+            <span>Powered by</span>
+            <span className="text-blue-400/80 font-bold">Amadeus</span>
+          </div>
+          <p className="text-center text-[11px] text-gray-600">
+            &copy; 2026 Flight Consultant. Todos los derechos reservados.
+          </p>
+        </footer>
       </div>
     </main>
   );
