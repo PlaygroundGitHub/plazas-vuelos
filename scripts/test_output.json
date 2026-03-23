@@ -1,0 +1,7744 @@
+[
+  {
+    "type": "flight-availability",
+    "id": "1",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT10H35M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T06:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:35:00"
+        },
+        "carrierCode": "DE",
+        "number": "2360",
+        "aircraft": {
+          "code": "339"
+        },
+        "id": "1",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "P"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "E"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "2",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "2",
+          "at": "2026-03-05T07:45:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "1",
+          "at": "2026-03-05T08:35:00"
+        },
+        "carrierCode": "6X",
+        "number": "901",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "56",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T12:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T21:00:00"
+        },
+        "carrierCode": "7X",
+        "number": "1220",
+        "aircraft": {
+          "code": "143"
+        },
+        "id": "57",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 8,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "3",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T07:45:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T08:35:00"
+        },
+        "carrierCode": "7X",
+        "number": "3601",
+        "aircraft": {
+          "code": "319"
+        },
+        "operating": {
+          "carrierCode": "6X"
+        },
+        "id": "58",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T12:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T21:00:00"
+        },
+        "carrierCode": "7X",
+        "number": "1220",
+        "aircraft": {
+          "code": "143"
+        },
+        "id": "59",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 8,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "4",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H20M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:40:00"
+        },
+        "arrival": {
+          "iataCode": "ZRH",
+          "at": "2026-03-05T09:30:00"
+        },
+        "carrierCode": "DE",
+        "number": "4313",
+        "aircraft": {
+          "code": "32Q"
+        },
+        "id": "93",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 6,
+            "class": "P"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "E"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "ZRH",
+          "at": "2026-03-05T10:15:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T11:15:00"
+        },
+        "carrierCode": "LX",
+        "number": "318",
+        "aircraft": {
+          "code": "295"
+        },
+        "operating": {
+          "carrierCode": "2L"
+        },
+        "id": "94",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "P"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1159",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "95",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "5",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "60",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "61",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1159",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "62",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "6",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "63",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "64",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1153",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "65",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "7",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "66",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "67",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1155",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "68",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "8",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "69",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "70",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1898",
+        "aircraft": {
+          "code": "733"
+        },
+        "operating": {
+          "carrierCode": "7X"
+        },
+        "id": "71",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "9",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "72",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "73",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1152",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "74",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "10",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "75",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "76",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1156",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "77",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "11",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "78",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "79",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1154",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "80",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "12",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "81",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "82",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1160",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "83",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "13",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "84",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "85",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1158",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "86",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "14",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "87",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "88",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1151",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "89",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "15",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT7H15M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T08:45:00"
+        },
+        "arrival": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T09:55:00"
+        },
+        "carrierCode": "6X",
+        "number": "1100",
+        "aircraft": {
+          "code": "319"
+        },
+        "id": "90",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "CDG",
+          "at": "2026-03-05T11:30:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "7726",
+        "aircraft": {
+          "code": "ERJ"
+        },
+        "id": "91",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1157",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "92",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "16",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T09:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T09:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "902",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "10",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T12:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T21:00:00"
+        },
+        "carrierCode": "7X",
+        "number": "1220",
+        "aircraft": {
+          "code": "143"
+        },
+        "id": "11",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 8,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 8,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "17",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "402",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "34",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1898",
+        "aircraft": {
+          "code": "733"
+        },
+        "operating": {
+          "carrierCode": "7X"
+        },
+        "id": "35",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "18",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "9808",
+        "aircraft": {
+          "code": "777"
+        },
+        "id": "36",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "F"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1160",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "37",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "19",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "402",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "38",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1151",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "39",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "20",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "9808",
+        "aircraft": {
+          "code": "777"
+        },
+        "id": "40",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "F"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1152",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "41",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "21",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "9808",
+        "aircraft": {
+          "code": "777"
+        },
+        "id": "42",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "F"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1155",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "43",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "22",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "402",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "44",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1153",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "45",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "23",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "402",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "46",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1157",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "47",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "24",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "402",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "48",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1156",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "49",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "25",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:30:00"
+        },
+        "carrierCode": "6X",
+        "number": "9808",
+        "aircraft": {
+          "code": "777"
+        },
+        "id": "50",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "F"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1154",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "51",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "26",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "402",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "52",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1158",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "53",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "27",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT6H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T10:00:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T11:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "402",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "54",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1159",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "55",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "28",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "12",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1156",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "13",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "29",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "14",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1898",
+        "aircraft": {
+          "code": "733"
+        },
+        "operating": {
+          "carrierCode": "7X"
+        },
+        "id": "15",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "30",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "16",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1152",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "17",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "31",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "18",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1159",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "19",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "32",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "20",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1151",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "21",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "33",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "22",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1160",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "23",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "34",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "24",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1154",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "25",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "35",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "26",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1153",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "27",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "36",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "28",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1157",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "29",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "37",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "30",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1155",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "31",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "38",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H55M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T10:05:00"
+        },
+        "arrival": {
+          "iataCode": "LHR",
+          "terminal": "2",
+          "at": "2026-03-05T10:45:00"
+        },
+        "carrierCode": "LH",
+        "number": "904",
+        "aircraft": {
+          "code": "32N"
+        },
+        "id": "32",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          }
+        ]
+      },
+      {
+        "departure": {
+          "iataCode": "LHR",
+          "at": "2026-03-05T13:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T22:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "1158",
+        "aircraft": {
+          "code": "320"
+        },
+        "id": "33",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "39",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT5H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T12:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-05T23:00:00"
+        },
+        "carrierCode": "6X",
+        "number": "113",
+        "aircraft": {
+          "code": "350"
+        },
+        "id": "2",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "40",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT10H40M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T13:45:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-06T06:25:00"
+        },
+        "carrierCode": "TG",
+        "number": "921",
+        "aircraft": {
+          "code": "77W"
+        },
+        "id": "3",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "41",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT11H5M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T15:05:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-06T08:10:00"
+        },
+        "carrierCode": "DE",
+        "number": "2366",
+        "aircraft": {
+          "code": "339"
+        },
+        "id": "4",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "P"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "E"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "42",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT4H",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T16:00:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-06T02:00:00"
+        },
+        "carrierCode": "DE",
+        "number": "4567",
+        "aircraft": {
+          "code": "339"
+        },
+        "id": "5",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "P"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "E"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "43",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT11H5M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T20:15:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-06T13:20:00"
+        },
+        "carrierCode": "DE",
+        "number": "2362",
+        "aircraft": {
+          "code": "339"
+        },
+        "id": "6",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "P"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "E"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "44",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT10H50M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "terminal": "1",
+          "at": "2026-03-05T20:55:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-06T13:45:00"
+        },
+        "carrierCode": "TG",
+        "number": "923",
+        "aircraft": {
+          "code": "77W"
+        },
+        "id": "7",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "C"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "45",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT9H20M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T22:45:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-06T14:05:00"
+        },
+        "carrierCode": "6X",
+        "number": "9720",
+        "aircraft": {
+          "code": "744"
+        },
+        "id": "8",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "F"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "R"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "flight-availability",
+    "id": "46",
+    "originDestinationId": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "paymentCardRequired": false,
+    "duration": "PT9H20M",
+    "segments": [
+      {
+        "departure": {
+          "iataCode": "FRA",
+          "at": "2026-03-05T22:45:00"
+        },
+        "arrival": {
+          "iataCode": "BKK",
+          "at": "2026-03-06T14:05:00"
+        },
+        "carrierCode": "7X",
+        "number": "220",
+        "aircraft": {
+          "code": "744"
+        },
+        "id": "9",
+        "numberOfStops": 0,
+        "blacklistedInEU": false,
+        "availabilityClasses": [
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Y"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "B"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "H"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "K"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "M"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "L"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "V"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "S"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "N"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Q"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "O"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "G"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "X"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "F"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "A"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "Z"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "J"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "D"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "I"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "U"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "W"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "T"
+          },
+          {
+            "numberOfBookableSeats": 9,
+            "class": "R"
+          }
+        ]
+      }
+    ]
+  }
+]

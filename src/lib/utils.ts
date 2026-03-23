@@ -19,5 +19,22 @@ export function formatDuration(duration: string) {
 }
 
 export function formatDateTime(dateStr: string) {
-    return format(parseISO(dateStr), 'MMM d, yyyy HH:mm');
+    if (!dateStr) return '';
+    // Use parseISO but format in a way that doesn't shift timezone if possible, 
+    // or just return the parts we need from the string directly to be safe.
+    try {
+        const date = parseISO(dateStr);
+        return format(date, 'MMM d, yyyy HH:mm');
+    } catch (e) {
+        return dateStr;
+    }
+}
+
+/**
+ * Extracts time (HH:mm) directly from an ISO string (YYYY-MM-DDTHH:mm:ss)
+ * to avoid any timezone conversion shifts in the browser.
+ */
+export function formatLocalTime(isoStr: string) {
+    if (!isoStr || !isoStr.includes('T')) return isoStr;
+    return isoStr.split('T')[1].substring(0, 5);
 }

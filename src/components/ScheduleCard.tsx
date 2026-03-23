@@ -1,4 +1,4 @@
-import { formatDateTime, cn } from "@/lib/utils";
+import { formatDateTime, formatLocalTime, cn } from "@/lib/utils";
 import { Plane, Calendar, Users, Info } from "lucide-react";
 
 interface ScheduleCardProps {
@@ -71,7 +71,15 @@ export function ScheduleCard({ flight, className }: ScheduleCardProps) {
     const marketingCodes = (flight.allMarketingCodes || [{ carrierCode, number }]) as { carrierCode: string, number: string }[];
 
     return (
-        <div className={cn("glass-card p-6 md:p-8 space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700", className)}>
+        <div className={cn("glass-card p-6 md:p-8 space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700 relative overflow-hidden", className)}>
+            {flight.flightNumberMismatch && (
+                <div className="bg-amber-500/10 border border-amber-500/20 px-4 py-3 rounded-xl flex items-center gap-3 mb-6">
+                    <Info className="w-5 h-5 text-amber-400 shrink-0" />
+                    <p className="text-sm text-amber-200/90 leading-tight">
+                        No se ha encontrado el vuelo <strong className="text-amber-300 font-mono">{flight.searchedCarrierCode} {flight.searchedFlightNumber}</strong>. Mostrando mejor alternativa disponible para esta ruta:
+                    </p>
+                </div>
+            )}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-white/10 pb-6 gap-4">
                 <div className="flex items-center gap-4">
                     <div className="p-3 bg-blue-500/20 rounded-xl">
@@ -123,7 +131,7 @@ export function ScheduleCard({ flight, className }: ScheduleCardProps) {
                         {departure.at && (
                             <div className="flex items-center justify-center gap-2 text-gray-400 text-sm">
                                 <Calendar className="w-4 h-4" />
-                                {departure.at.split('T')[1]?.substring(0, 5) || formatDateTime(departure.at)}
+                                {formatLocalTime(departure.at)}
                             </div>
                         )}
                         {departure.terminal && (
@@ -146,7 +154,7 @@ export function ScheduleCard({ flight, className }: ScheduleCardProps) {
                         {arrival.at && (
                             <div className="flex items-center justify-center gap-2 text-gray-400 text-sm">
                                 <Calendar className="w-4 h-4" />
-                                {arrival.at.split('T')[1]?.substring(0, 5) || formatDateTime(arrival.at)}
+                                {formatLocalTime(arrival.at)}
                             </div>
                         )}
                         {arrival.terminal && (
@@ -190,6 +198,54 @@ export function ScheduleCard({ flight, className }: ScheduleCardProps) {
                     })}
                 </div>
             </div>
+
+            {/* Seatmap Real Occupancy */}
+            {flight.seatmapData ? (
+                <div className="space-y-3 pt-4 border-t border-white/10 mt-6">
+                    <div className="flex items-center justify-between">
+                        <h3 className="text-sm font-medium text-blue-400/90 uppercase tracking-wider flex items-center gap-2">
+                            <Users className="w-4 h-4" /> Ocupación Real del Avión
+                        </h3>
+                        <div className="flex items-center gap-2 text-xs font-mono">
+                            <span className="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full font-bold">
+                                {flight.seatmapData.occupancyPercentage}% Ocupado
+                            </span>
+                        </div>
+                    </div>
+                    <div className="grid grid-cols-3 gap-4">
+                        <div className="bg-green-500/10 border border-green-500/20 rounded-xl p-4 text-center">
+                            <div className="text-[11px] text-green-400/80 uppercase tracking-wider font-semibold mb-1">Libres</div>
+                            <div className="text-2xl font-bold text-green-400">{flight.seatmapData.available}</div>
+                        </div>
+                        <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-4 text-center">
+                            <div className="text-[11px] text-red-400/80 uppercase tracking-wider font-semibold mb-1">Ocupados</div>
+                            <div className="text-2xl font-bold text-red-400">{flight.seatmapData.occupied}</div>
+                        </div>
+                        <div className="relative group/blocked bg-amber-500/10 border border-amber-500/20 rounded-xl p-4 text-center cursor-help">
+                            <div className="text-[11px] text-amber-400/80 uppercase tracking-wider font-semibold mb-1 flex items-center justify-center gap-1">
+                                Bloqueados <Info className="w-3 h-3" />
+                            </div>
+                            <div className="text-2xl font-bold text-amber-300">{flight.seatmapData.blocked}</div>
+                            {/* Tooltip */}
+                            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 p-2 bg-gray-900 border border-white/10 rounded-lg shadow-xl opacity-0 invisible group-hover/blocked:opacity-100 group-hover/blocked:visible transition-all duration-200 z-50 text-[10px] text-left text-gray-300 leading-tight">
+                                Asientos que la aerolínea mantiene bloqueados por motivos operativos (tripulación, peso, etc.) o reservas pre-asignadas.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            ) : (
+                <div className="space-y-3 pt-4 border-t border-white/10 mt-6">
+                    <div className="flex items-center justify-between">
+                        <h3 className="text-sm font-medium text-gray-400/90 uppercase tracking-wider flex items-center gap-2">
+                            <Users className="w-4 h-4" /> Ocupación Real del Avión
+                        </h3>
+                    </div>
+                    <div className="bg-white/5 border border-white/10 rounded-xl p-4 flex items-center gap-3 text-gray-400 text-sm">
+                        <Info className="w-5 h-5 opacity-70" />
+                        <p>No se ha podido obtener el mapa de asientos (información no compartida por la aerolínea en GDS).</p>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }

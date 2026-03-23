@@ -77,8 +77,6 @@ export default function Home() {
       const res = await fetch(url);
       const data = await res.json();
 
-      if (!res.ok) throw new Error(data.error || "Failed to fetch flight availability");
-
       // Prepend to results array
       setResults(prev => [data, ...prev]);
 
@@ -140,7 +138,7 @@ export default function Home() {
                 activeTab === 'route' ? "bg-purple-600 text-white shadow-lg" : "text-gray-400 hover:text-white"
               )}
             >
-              Non-Stop Availability
+              Best flight
             </button>
           </div>
 
@@ -299,14 +297,18 @@ export default function Home() {
                     <Info className="w-6 h-6 text-blue-400" />
                     <h3 className="text-white font-semibold text-xl">¿Cómo entender la disponibilidad?</h3>
                   </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm leading-relaxed text-gray-300">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm leading-relaxed text-gray-300">
                     <div className="space-y-4">
-                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Disponibilidad Comercial (GDS):</strong> Los números muestran las plazas que la aerolínea permite **vender** en cada clase técnica. No coinciden necesariamente con los asientos físicos vacíos del avión.</p>
-                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">El Límite del "9":</strong> Por estándar de la industria, Amadeus muestra un máximo de **9** plazas por clase. Si ves un 9, significa "9 o más".</p>
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Disponibilidad Comercial (GDS):</strong> Los números muestran las plazas que la aerolínea permite vender en cada clase técnica. No coinciden necesariamente con los asientos físicos vacíos del avión.</p>
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">El Límite del "9":</strong> Por estándar de la industria, Amadeus muestra un máximo de 9 plazas por clase. Si ves un 9, significa "9 o más".</p>
                     </div>
                     <div className="space-y-4">
-                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Overbooking:</strong> Un vuelo puede estar físicamente lleno (u overbooked) pero seguir mostrando disponibilidad en clases altas (Business/Tarifas Flexibles) si la aerolínea aún desea vender esos billetes.</p>
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Overbooking:</strong> Un vuelo puede estar físicamente lleno (u overbooked) pero seguir mostrando disponibilidad en clases altas si la aerolínea aún desea vender esos billetes.</p>
                       <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Total de Plazas:</strong> Es la suma de la disponibilidad de todas las clases. Se usa como índice de probabilidad de encontrar sitio.</p>
+                    </div>
+                    <div className="space-y-4">
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Asientos Libres:</strong> Asientos físicos sin asignar obtenidos directamente del mapa real de la cabina. Este número suele bajar drásticamente al abrirse el check-in (24h/48h antes).</p>
+                      <p><strong className="text-blue-400 border-b border-blue-400/30 pb-1">Asientos Bloqueados:</strong> Butacas estratégicamente retenidas por la aerolínea por motivos concretos (ej. primera fila VIP, zona cunas, salidas de emergencia o balance de peso).</p>
                     </div>
                   </div>
                 </div>

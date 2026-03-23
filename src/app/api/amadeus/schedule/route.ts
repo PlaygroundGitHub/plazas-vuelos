@@ -42,35 +42,7 @@ export async function GET(request: NextRequest) {
             return NextResponse.json({ error: `No flights found on route ${origin}->${destination} for ${date}.` }, { status: 404 });
         }
 
-        // Case 1: Specific flight requested
-        if (carrierCode && flightNumber) {
-            const matchingFlight = allFlights.find((flight: any) => {
-                return flight.segments.some((segment: any) =>
-                    segment.carrierCode === carrierCode &&
-                    segment.number === flightNumber
-                );
-            });
-
-            if (matchingFlight) {
-                // Find all marketing codes for this physical flight (using same times as identifier)
-                const s = matchingFlight.segments[0];
-                const physicalKey = `${s.departure.at}-${s.arrival.at}`;
-
-                const allMarketingCodes = allFlights
-                    .filter((f: any) => {
-                        const segment = f.segments[0];
-                        return `${segment.departure.at}-${segment.arrival.at}` === physicalKey;
-                    })
-                    .map((f: any) => ({ carrierCode: f.segments[0].carrierCode, number: f.segments[0].number }));
-
-                return NextResponse.json({ ...matchingFlight, allMarketingCodes });
-            } else {
-                return NextResponse.json({ error: `Flight ${carrierCode} ${flightNumber} not found on route ${origin}->${destination} for ${date}.` }, { status: 404 });
-            }
-        }
-
-        // Case 2: Find "Most Available" flight (Non-Stop Only)
-        // Group flights by physical identity (strictly by departure and arrival times)
+        // 1. Group all non-stop flights by physical identity (strictly by departure and arrival times)
         const groupedFlights: Record<string, any> = {};
 
         allFlights.forEach((flight: any) => {
@@ -112,16 +84,133 @@ export async function GET(request: NextRequest) {
         });
 
         const nonStopFlightsGrouped = Object.values(groupedFlights);
+        nonStopFlightsGrouped.sort((a: any, b: any) => b.totalSeats - a.totalSeats);
 
-        if (nonStopFlightsGrouped.length === 0) {
+        // 2. Determine which flight to return
+        let flightToReturn = nonStopFlightsGrouped[0];
+
+        if (carrierCode && flightNumber) {
+            // Try to find exact match in any of the marketing codes
+            const exactMatch = nonStopFlightsGrouped.find((f: any) =>
+                f.allMarketingCodes.some((m: any) => m.carrierCode === carrierCode && m.number === flightNumber)
+            );
+
+            if (exactMatch) {
+                flightToReturn = exactMatch;
+            } else if (nonStopFlightsGrouped.length > 0) {
+                // Fallback
+                flightToReturn = {
+                    ...nonStopFlightsGrouped[0],
+                    flightNumberMismatch: true,
+                    searchedCarrierCode: carrierCode,
+                    searchedFlightNumber: flightNumber
+                };
+            } else {
+                return NextResponse.json({ error: `Flight ${carrierCode} ${flightNumber} not found on route ${origin}->${destination} for ${date}.` }, { status: 404 });
+            }
+        } else if (nonStopFlightsGrouped.length === 0) {
+            // 3. Route search but no direct flights found
             return NextResponse.json({ error: `No direct flights found on route ${origin}->${destination} for ${date}.` }, { status: 404 });
         }
 
-        // Sort by total seats descending
-        nonStopFlightsGrouped.sort((a: any, b: any) => b.totalSeats - a.totalSeats);
 
-        // Return the first one (most available) with all its marketing codes
-        return NextResponse.json(nonStopFlightsGrouped[0]);
+        // 4. ATTACH SEATMAP DATA
+        try {
+            const amadeusAny = amadeus as any;
+            let matchingOffer = null;
+            let targetNumber = "";
+
+            for (const firstMarketing of flightToReturn.allMarketingCodes.slice(0, 3)) {
+                console.log(`[Seatmap Diag] Requesting offers for: ${firstMarketing.carrierCode} ${firstMarketing.number} on ${date}`);
+                try {
+                    const flightOffersResponse = await amadeusAny.shopping.flightOffersSearch.get({
+                        originLocationCode: origin,
+                        destinationLocationCode: destination,
+                        departureDate: date,
+                        adults: 1,
+                        includedAirlineCodes: firstMarketing.carrierCode,
+                        nonStop: true,
+                        max: 50 // Pull some offers to find this exact flight
+                    });
+
+                    console.log(`[Seatmap Diag] Found ${flightOffersResponse.data?.length || 0} flight offers.`);
+
+                    if (flightOffersResponse.data && flightOffersResponse.data.length > 0) {
+                        targetNumber = parseInt(firstMarketing.number, 10).toString();
+                        matchingOffer = flightOffersResponse.data.find((offer: any) => {
+                            const seg = offer.itineraries?.[0]?.segments?.[0];
+                            return seg &&
+                                parseInt(seg.number, 10).toString() === targetNumber &&
+                                seg.carrierCode === firstMarketing.carrierCode;
+                        });
+
+                        if (matchingOffer) {
+                            console.log(`[Seatmap Diag] MATCHING OFFER FOUND for ${targetNumber}`);
+                            break;
+                        }
+                    }
+                } catch (offerSearchError) {
+                    console.log(`[Seatmap Diag] Error searching for ${firstMarketing.carrierCode}:`, offerSearchError);
+                }
+
+                if (!matchingOffer) {
+                    // Avoid Sandbox rate limits (max 10 req/s)
+                    await new Promise(resolve => setTimeout(resolve, 300));
+                }
+            }
+
+            if (matchingOffer) {
+                console.log(`[Seatmap Diag] MATCHING OFFER FOUND for ${targetNumber}`);
+                // Patch to fix Amadeus Sandbox issue where operating carrierCode might be missing
+                if (matchingOffer.itineraries?.[0]?.segments) {
+                    matchingOffer.itineraries[0].segments.forEach((seg: any) => {
+                        if (!seg.operating) {
+                            seg.operating = { carrierCode: seg.carrierCode };
+                        } else if (!seg.operating.carrierCode) {
+                            seg.operating.carrierCode = seg.carrierCode;
+                        }
+                    });
+                }
+
+                const seatmapResponse = await amadeusAny.shopping.seatmaps.post(
+                    JSON.stringify({ data: [matchingOffer] })
+                );
+
+                console.log(`[Seatmap Diag] POST seatmaps successful! Decks count: ${seatmapResponse.data?.[0]?.decks?.length}`);
+
+                if (seatmapResponse.data && seatmapResponse.data.length > 0) {
+                    let available = 0;
+                    let occupied = 0;
+                    let blocked = 0;
+                    let total = 0;
+
+                    const seatmap = seatmapResponse.data[0];
+                    seatmap.decks?.forEach((deck: any) => {
+                        deck.seats?.forEach((seat: any) => {
+                            total++;
+                            const status = seat.travelerPricing?.[0]?.seatAvailabilityStatus || seat.availabilityStatus;
+                            if (status === 'AVAILABLE') available++;
+                            else if (status === 'OCCUPIED') occupied++;
+                            else if (status === 'BLOCKED') blocked++;
+                        });
+                    });
+
+                    flightToReturn.seatmapData = {
+                        available,
+                        occupied,
+                        blocked,
+                        total,
+                        occupancyPercentage: total > 0 ? (((occupied + blocked) / total) * 100).toFixed(1) : 0
+                    };
+                }
+            }
+        } catch (seatmapError: any) {
+            console.warn('Could not fetch seatmap data:', seatmapError?.response ? seatmapError.response.body : seatmapError);
+            // Ignore error, we just return the flight without seatmapData
+        }
+
+        // Return the flight with the requested details and potentially seatmapData
+        return NextResponse.json(flightToReturn);
 
     } catch (error: any) {
         console.error('Amadeus API Error (Availability):', error);
@@ -131,13 +220,10 @@ export async function GET(request: NextRequest) {
 
         if (error.response) {
             status = error.response.statusCode;
-            // Try to extract detailed error message from Amadeus response
             try {
                 const parsedBody = JSON.parse(error.response.body);
                 message = parsedBody.errors?.[0]?.detail || message;
-            } catch (e) {
-                // fallback if body is not json
-            }
+            } catch (e) { }
         }
 
         return NextResponse.json({ error: message }, { status });
